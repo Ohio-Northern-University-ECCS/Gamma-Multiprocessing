@@ -1,3 +1,9 @@
+/* This is a starter code for OS course at ONU. 
+   It cuts an image into parts that could then be used for multiprocessing
+   Author: Ziad Youssfi
+   This code is for internal use for the OS course only.
+*/
+
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 #include <math.h>
