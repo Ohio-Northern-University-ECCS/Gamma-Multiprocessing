@@ -1,7 +1,7 @@
 /* This is a starter code for OS course at ONU. 
    It cuts an image into parts that could then be used for multiprocessing
    Author: Ziad Youssfi
-   This code is for internal use for the OS course only.
+   This code can be use under MIT Creative Common License. 
 */
 
 #include <stdio.h>
