@@ -1,7 +1,7 @@
 # Gamma-Correction-Multiprocessing
 
 In this assignment, suppose you are tasked to speed up OpenCV gamma correction algorithm for imaging on a mobile device for a software company. To achieve speedup, suppose you decided to break down the image correction into four concurrent processes on your Raspberry Pi (since it has four cores). 
-One way to communicate between processes is through named pipes. However, pipes have limited data capacity that cannot handle large images. Thus you decide to use shared memory. [This example](https://github.com/angrave/SystemProgramming/wiki/File-System%2C-Part-6%3A-Memory-mapped-files-and-Shared-memory#how-do-i-share-memory-between-a-parent-and-child-process) shows to share memory with between a parent and a child process without a backing file. If you would like to read more about IPC, this document provides three different ways to carry out IPC.
+One way to communicate between processes is through named pipes. However, pipes have limited data capacity that cannot handle large images. Thus you decide to use shared memory. [This example](https://github.com/angrave/SystemProgramming/wiki/File-System%2C-Part-6%3A-Memory-mapped-files-and-Shared-memory#how-do-i-share-memory-between-a-parent-and-child-process) shows you how to share memory between a parent and a child process without a backing file. If you would like to read more about IPC, [this document](https://github.com/angrave/SystemProgramming/wiki/File-System%2C-Part-6%3A-Memory-mapped-files-and-Shared-memory#how-do-i-share-memory-between-a-parent-and-child-process) provides three different ways to carry out IPC.
 
 Here are the steps you will need to process the image in parallel on multiple cores using shared memory and IPC.
 
